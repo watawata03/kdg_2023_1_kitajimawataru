@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<main>
+
+<section>
+
+<h2>Character-Episode6-</h2>
+<!-- <p>ブロック全体を囲んでいる「list-container」タグを入れ忘れないで下さい。これがないとレイアウトが崩れます。<br>
+出現してくるアニメーションは他にも色々ご用意しております。テンプレート内の<a href="sample_inview.html">sample_inview.htmlをお読み下さい。</a></p> -->
+
+<div class="list-container">
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/luke6.png' %}" alt=""></figure>
+<div class="text">
+<h4>ルークスカイウォーカー</h4>
+<p>ルークはタトゥイーンと呼ばれる砂漠の惑星で育ち、農夫の叔父オーウェン・ラーズと叔母ベルー・ラーズと一緒に暮らしていました。<br>
+    しかし、彼の運命は大きく変わる。アストロメク・ドロイドのあるR2-D2とC-3POが持っていたメッセージを通じて、宇宙の冒険へと巻き込まれまる、、、</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/leia6.png' %}" alt=""></figure>
+<div class="text">
+<h4>レイア・オーガナ</h4>
+<p>レイアはアルデラーンの王女であり、同時に反乱軍の指導者であるという二重の役割を担っている。彼女は賢明で勇敢な指導者であり、反乱軍のメンバーとして帝国に対抗していく。</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/han6.png' %}" alt=""></figure>
+<div class="text">
+<h4>ハン・ソロ</h4>
+<p>ハン・ソロは密輸業者で、ミレニアム・ファルコンと呼ばれる宇宙船で相棒のチューバッカと旅しています。彼は自己中心的で冒険心旺盛な性格を持っているて、
+    金が絡んでいる仕事にしか興味を示しません。ただ、彼の冷静で冷たい外見とは裏腹に、正義感や仲間への優しいの気持ちも秘めている。</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/cyu6.png' %}" alt=""></figure>
+<div class="text">
+<h4>チューバッカ</h4>
+<p>チューバッカはウーキー族の生き残りで、彼はハン・ソロと共にミレニアム・ファルコンで冒険し
+    彼のかけがえない親友であり、彼と一緒に様々な危険な状況に立ち向かう。</p>
+</div>
+
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/R26.png' %}" alt=""></figure>
+<div class="text">
+<h4>R2-D2</h4>
+<p>臨機応変で才知に富んだアストロメク・ドロイド驚くほどの勇気を発揮して数多くの危機からマスターや友人たちを救いだしてきた。
+    宇宙船の整備士としての腕も、戦闘機パイロットの補佐も抜群。
+    意外にも、心配性のプロトコル・ドロイドのC-3POと友情を育んで長い。</p>
+</div>
+
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/3po6.png' %}" alt=""></figure>
+<div class="text">
+<h4>C-3PO</h4>
+<p>C-3POは人間のような外見を持ち、金色に輝くボディが特徴的です。彼は非常に礼儀正しく、
+    知的がかなり神経質な性格をしている。通訳の能力に優れているドロイドであり、多くの異なる言語や文化を理解し、
+    主人であるレイア・オーガナや反乱軍の仲間たちとのコミュニケーションにおいて頻繁に役立っている。</p>
+</div>
+
+</div>
+
+</div>
+<!--/.list-container-->
+
+</section>
+
+<div class="bg1">
+
+<section>
+
+<!-- <h2>Service</h2> -->
+
+<div class="list-container">
+
+<!-- <div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+</div>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="{% url 'service2' %}">もっとみる</a></p>
+</div>
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="{% url 'service2' %}">もっとみる</a></p>
+</div>
+
+<div class="list blur">
+<figure><img src="{% static 'rebels/images/sample1.jpg' %}" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="{% url 'service2' %}">もっとみる</a></p>
+</div> -->
+
+</div>
+<!--/.list-container-->
+
+</section>
+
+</div>
+<!--/.bg1-->
+
+</main>
+
+{% endblock %}
